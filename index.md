@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Viewer</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+        .pdf-container {
+            width: 100%;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="pdf-container">
+        <!--Prueba-->
+        <embed 
+            src="Menu.pdf" 
+            type="application/pdf" 
+            width="100%" 
+            height="100%"
+        />
+    </div>
+</body>
+</html>
